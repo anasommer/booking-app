@@ -18,7 +18,7 @@ const UserMenu = () => {
           onClick={() => {}}
           className='hidden md:block text-sm font-semibold py-3 px-4 rounded-full hover:bg-neutral-100 transition cursor-pointer'
         >
-          Airbnb your home
+          Holidaze your home
         </div>
         <div
           className='p-4 md:py-1 md:px-2 border-[1px] border-neutral-200 flex flex-row items-center gap-3 rounded-full cursor-pointer hover:shadow-md transition'
@@ -35,7 +35,7 @@ const UserMenu = () => {
           <div className='flex flex-col cursor-pointer'>
             <>
               <MenuItem onClick={() => {}} label='Login' />
-              <MenuItem onClick={() => {}} label='Sign Up' />
+              <MenuItem onClick={() => {}} label='Sign Up ' />
             </>
           </div>
         </div>
